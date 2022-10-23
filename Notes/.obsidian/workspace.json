@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "e23968cb9aacb0e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7df19683a2eb6556",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2712263335d18aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Closures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d491a22f637f4ba0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Array and Object Destructuring.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55a1073fbb364866",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Currying.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "29b0233492e2ffb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ce3593e1120f883",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec9c9d242eac0155",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b16b931410baae51",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9677561323821fb2",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "419c46c37d4e45ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "2865746be72eb15a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bd695cdcb875789",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JavaScript/Array and Object Destructuring.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "260f61755c4f2d49",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "JavaScript/Array and Object Destructuring.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "83cea5b326af49bb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "29d1dac75d40ecb2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "JavaScript/Array and Object Destructuring.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "ec9c9d242eac0155",
+  "lastOpenFiles": [
+    "JavaScript/Spread Operator.md",
+    "JavaScript/Array and Object Destructuring.md",
+    "JavaScript/Currying.md",
+    "JavaScript/Closures.md",
+    "Interview Prep/JavaScript Interview Questions.md",
+    "JavaScript/Pure Functions.md",
+    "JavaScript/Heap.md",
+    "JavaScript/Call Stack.md",
+    "Images/Pasted image 20221018155238.png",
+    "JavaScript/Functions Explained/sort().md"
+  ]
+}
