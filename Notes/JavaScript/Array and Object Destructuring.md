@@ -93,5 +93,89 @@ const personTwo = {
 	}
 }
 
-const {name, age} = personTwp
+const {name, age} = personTwo
+```
+
+Object destructuring works exactly like array destructuring except instead of the position in the array being the selector it is the object property name itself. However with objects we can rename the variable we are pulling from the object with the `:` operator
+
+```js
+const {name: firstName, age} = personTwo
+
+console.log(firstName) //'Jaime'
+```
+
+Just like arrays we can also set defaults when we destructure like so:
+```js
+const {name: firstname = 'default guy', age, favoriteFood = 'Crab'} = personTwo
+
+console.log(firstName)//'Jaime'
+console.log(favoriteFood)//'Crab'
+```
+
+In this example we set two defaults, the default name is still equal to Jaime as this value is overwritten in the `personTwo` object however `favoriteFood` is not. Causing the default value to be returned.
+
+ Again just like arrays we can use the `rest` operator to retrieve the rest of an object
+ ```js
+ const {name, ...rest} = personTwo
+```
+
+We can destructure nested objects like so:
+```js
+const {name, age, address: { city }} = personTwo
+
+console.log(city) // 'LA'
+```
+
+We can also merge objects with destructuring and overwrite matched parameters
+```js
+const personOne = {
+	name: 'Kyle',
+	age: 27,
+	address: {
+		city: 'PHX',
+		state: 'AZ'
+	}
+}
+
+const personTwo = {
+	age: 26,
+	favoriteFood: 'Watermelon'
+}
+
+const personThree = {...personOne, ...personTwo}
+```
+
+In this example we are creating a new personThree that is first assigned to the value of personOne and then merged with the value of personTwo. So when we console log personThree we see:
+
+```json
+{
+  "name": "Kyle",
+  "age": 26,
+  "address": {
+    "city": "PHX",
+    "state": "AZ"
+  },
+  "favoriteFood": "Watermelon"
+}
+```
+
+### Using Destructuring in Functions
+
+Possibly the most common use of object destructuring is inside the parameters of a function. This allows us to extract only the necessary data from an object while also setting defaults in the function parameter.
+
+```js
+const personOne = {
+	name: 'Kyle',
+	age: 27,
+	address: {
+		city: 'PHX',
+		state: 'AZ'
+	}
+}
+
+function printUser({name, age, favoriteFood = 'Crab'}) {
+	console.log(`Name is: ${name}. Age is ${age} Food is ${favoriteFood}`);
+}
+
+printUser(personOne); // Name is: Kyle. Age is 24. Food is Crab
 ```

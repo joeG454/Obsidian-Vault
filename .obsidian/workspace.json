@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "a7a30b309f0d3fed",
+    "type": "split",
+    "children": [
+      {
+        "id": "73317c4c25d86253",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "653c3f5e21e0fcf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Interview Prep/JavaScript Interview Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e01c28fb55d5610",
+    "type": "split",
+    "children": [
+      {
+        "id": "106193c6f67c5056",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10b8efb1c799c704",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "52d26aaa564791f3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "220e2ee2d018e060",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "03410307b35cca5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "31496b1e8f69a5fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4e6c7d46addc6f5e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Interview Prep/JavaScript Interview Questions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b43a9b6dab65b2a2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Notes/Interview Prep/JavaScript Interview Questions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b93e3d7bd2159b64",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ec1688be22133c28",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Interview Prep/JavaScript Interview Questions.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "653c3f5e21e0fcf4",
+  "lastOpenFiles": [
+    "Notes/JavaScript/Functions Explained/filter().md",
+    "Notes/Interview Prep/JavaScript Interview Questions.md",
+    "Notes/JavaScript/Functions Explained/sort().md",
+    "Notes/JavaScript/Array and Object Destructuring.md"
+  ]
+}
