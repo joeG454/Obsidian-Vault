@@ -28,7 +28,7 @@ In the case of arrays the *position* of the elements determine what is pulled fr
 ```js
 const [a, b, c] = alphabet
 const [a,, c] = alphabet
-const [a,, c, ..rest] = alphabet
+const [a,, c, ...rest] = alphabet
 ```
 
  - The first example is an extension of the earlier one, creating three consts `a b c` each equal to `A B C` respectivley
@@ -177,5 +177,5 @@ function printUser({name, age, favoriteFood = 'Crab'}) {
 	console.log(`Name is: ${name}. Age is ${age} Food is ${favoriteFood}`);
 }
 
-printUser(personOne); // Name is: Kyle. Age is 24. Food is Crab
+printUser(personOne); // Name is: Kyle. Age is 27. Food is Crab
 ```

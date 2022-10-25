@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Interview Prep/JavaScript Interview Questions.md",
+                "file": "Notes/JavaScript/Array and Object Destructuring.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "438efb38adbc6982",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/JavaScript/Closures.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Interview Prep/JavaScript Interview Questions.md",
+                "file": "Notes/JavaScript/Closures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Interview Prep/JavaScript Interview Questions.md",
+                "file": "Notes/JavaScript/Closures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Interview Prep/JavaScript Interview Questions.md"
+                "file": "Notes/JavaScript/Closures.md"
               }
             }
           }
@@ -139,11 +152,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "653c3f5e21e0fcf4",
+  "active": "438efb38adbc6982",
   "lastOpenFiles": [
-    "Notes/JavaScript/Functions Explained/filter().md",
-    "Notes/Interview Prep/JavaScript Interview Questions.md",
-    "Notes/JavaScript/Functions Explained/sort().md",
-    "Notes/JavaScript/Array and Object Destructuring.md"
+    "Notes/JavaScript/Array and Object Destructuring.md",
+    "Notes/JavaScript/Call Stack.md",
+    "Notes/JavaScript/Closures.md",
+    "Notes/JavaScript/Currying.md",
+    "Notes/JavaScript/Heap.md",
+    "Notes/JavaScript/Hoisting.md",
+    "Notes/JavaScript/Pure Functions.md",
+    "Notes/JavaScript/The Event Loop.md",
+    "Notes/JavaScript/Spread Operator.md",
+    "Notes/Interview Prep/JavaScript Interview Questions.md"
   ]
 }
